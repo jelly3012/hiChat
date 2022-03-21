@@ -1,0 +1,38 @@
+:root {
+  --primary-color: #4d0bef;
+  --text-color: #202124;
+  --white-color: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+#app {
+  height: 100%;
+  background-color: #f7efff;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+}
+
+#app__icon {
+  position: absolute;
+  top: 10%;
+  right: 50%;
+  transform: translateX(50%);
+  font-size: 10rem;
+  color: var(--primary-color);
+}

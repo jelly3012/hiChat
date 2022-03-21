@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./assets/css/chat.css" />
+  </head>
+  <body>
+    <nav class="main-nav">
+      <div class="user-profile">
+        <div class="user-email">teukawaii@gmail.com</div>
+        <button class="btn-icon">
+          <i class="fa-solid fa-arrow-right-from-bracket"></i>
+        </button>
+      </div>
+    </nav>
+    <section class="chat-container">
+      <section class="aside-left">
+        <div class="list-conversations">
+          List conversations
+          <div class="conversations curren">
+            <span class="conversation-title">First conversation</span>
+            <span class="conversation-users">2 members</span>
+          </div>
+          <div class="conversations">
+            <span class="conversation-title">Second conversation</span>
+            <span class="conversation-users">2 members</span>
+          </div>
+        </div>
+        <form action="" class="form-add-conversation">
+          <div class="input-wrapper">
+            <input
+              type="text"
+              name="title"
+              placeholder="Enter new conversation title"
+            />
+          </div>
+          <div class="input-wrapper">
+            <input
+              type="text"
+              name="friendEmail"
+              placeholder="Enter your friend email"
+            />
+          </div>
+          <button class="btn-icon"></button>
+        </form>
+      </section>
+      <div class="current-conversation">
+        <div class="list-message"></div>
+        <form action="" class="form-add-message">
+          <div class="input-wrapper">
+            <input
+              type="text"
+              name="message"
+              placeholder="Enter your message..."
+            />
+          </div>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+      <section class="aside-right">
+        <div class="current-conversation-details">
+          <div class="details-title">
+            First conversation
+            <div class="details-list-email">
+              <div>teukawaii@gmail.com</div>
+              <div>phan.weebly@gmail.com</div>
+            </div>
+            <div class="details-created-at">14/03/2022</div>
+          </div>
+        </div>
+        <button><i class="fa-solid fa-plus"></i></button>
+      </section>
+    </section>
+  </body>
+</html>

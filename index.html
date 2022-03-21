@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hi Chat</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+      integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/fonts/fontawesome-free-6.0.0-web/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/form.css" />
+    <link rel="stylesheet" href="./assets/css/chat.css" />
+  </head>
+  <body>
+    <div id="app"></div>
+
+    <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-firestore.js"></script>
+
+    <script>
+      const firebaseConfig = {
+        apiKey: "AIzaSyD6JGDNAiU8YSvwCLWdDV_8list-kk7ZzQ",
+        authDomain: "hi-chat-9998e.firebaseapp.com",
+        projectId: "hi-chat-9998e",
+        storageBucket: "hi-chat-9998e.appspot.com",
+        messagingSenderId: "344587861937",
+        appId: "1:344587861937:web:9b1609ff99f270dc8c4790",
+      };
+
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+  </body>
+  <script src="./assets/js/components.js"></script>
+  <script src="./assets/js/controller.js"></script>
+  <script src="./assets/js/model.js"></script>
+  <script src="./assets/js/view.js"></script>
+  <script src="./assets/js/utils.js"></script>
+  <script src="./assets/js/main.js"></script>
+</html>

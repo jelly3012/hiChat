@@ -1,0 +1,176 @@
+.form__container {
+  display: flex;
+  margin: auto;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 0px 10px 0px #8d5fff;
+  background-color: var(--white-color);
+  position: absolute;
+  top: 25%;
+  right: 50%;
+  transform: translateX(50%);
+}
+
+/* Form register */
+.form__register,
+.form__login {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+}
+
+.form__register-header,
+.form__login-header {
+  margin: 30px 0;
+  text-align: center;
+}
+
+.form__register-heading,
+.form__login-heading {
+  font-size: 3rem;
+}
+
+.form__register-header p,
+.form__login-header p {
+  font-size: 1.4rem;
+  margin-top: 8px;
+}
+
+#message {
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+.success {
+  color: rgb(21, 255, 0);
+}
+
+.err {
+  color: #ff0000;
+}
+
+.form__register-body,
+.form__login-body {
+  display: flex;
+  flex-direction: column;
+  margin: 0 16px 16px 16px;
+  height: 300px;
+}
+
+.form__register-wrap,
+.form__login-wrap {
+  padding: 6px 0;
+}
+
+.form__register-input,
+.form__login-input {
+  display: block;
+  font-size: 2rem;
+  padding: 6px 16px;
+  border: none;
+  border-radius: 999px;
+  box-shadow: 0 0px 4px 0px #8d5fff;
+  margin-bottom: 6px;
+  width: 100%;
+}
+
+.form__register-input:focus-visible,
+.form__login-input:focus-visible {
+  outline: none;
+}
+
+.messenger__err {
+  margin: 2px 18px;
+  font-size: 1.4rem;
+  color: #ff0000;
+}
+
+.form__content {
+  width: 300px;
+  background-image: linear-gradient(0, #5007d4, #881bf2);
+  display: flex;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.form__content-heading,
+.form__content-heading {
+  font-size: 3rem;
+  margin: auto;
+  color: var(--white-color);
+}
+
+.form__register-footer {
+  margin: 0 16px;
+  font-size: 1.4rem;
+  margin: 32px 16px;
+  text-align: end;
+}
+
+.form__register-footer-link {
+}
+
+.form__register-checkbox {
+  text-align: end;
+  margin-bottom: 10px;
+}
+
+.form__register-checkbox input {
+  width: 16px;
+  height: 16px;
+}
+
+.form__register-btn,
+.form__login-btn {
+  padding: 6px 0;
+  font-size: 2rem;
+  border: none;
+  border-radius: 999px;
+  background-image: linear-gradient(0, #5007d4, #881bf2);
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.isErr {
+  box-shadow: 0 0px 4px 0px #ff0000;
+}
+
+/* Form login */
+
+.form__login-footer {
+  margin: 0 16px;
+  font-size: 1.4rem;
+  margin: 0 16px 16px 16px;
+  text-align: end;
+}
+
+.form__login-footer-link {
+}
+
+.form__login-checkbox {
+  margin: 10px;
+}
+
+.form__login-checkbox,
+.forgot__password {
+  font-size: 1.4rem;
+  text-align: end;
+  margin-bottom: 10px;
+}
+
+.btn:active {
+  animation: fade 1s linear;
+}
+
+.btn:disabled {
+  background-color: rgb(100, 99, 99);
+}
+
+@keyframes fade {
+  0% {
+    opacity: 1.5;
+  }
+  100% {
+    opacity: 0;
+  }
+}
