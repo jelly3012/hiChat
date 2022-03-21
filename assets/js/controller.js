@@ -191,7 +191,6 @@ const controller = {
 
       if (confirmLeave) {
         controller.leaveCurrentConversation(conversation);
-        location.reload();
       }
     };
   },
