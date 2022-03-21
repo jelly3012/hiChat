@@ -179,8 +179,7 @@ const controller = {
     let btnLeaveConversation = document.createElement("button");
     btnLeaveConversation.setAttribute("id", "leave-conversation-btn");
     btnLeaveConversation.appendChild(icon);
-    console.log(btnLeaveConversation);
-    console.log(btnWrap);
+
     btnWrap.appendChild(btnLeaveConversation);
 
     let leaveConversationBtn = document.getElementById(
